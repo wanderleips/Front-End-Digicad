@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <link rel="stylesheet" href="./estilos/tabela.css">
+</head>
+<body>
+    <header>
+        <h1>Efeito esconder conteúdo</h1>
+    </header>
+    <nav></nav>
+    <main>
+        <details>
+            <summary>Receitra de bolo de chocolate</summary>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus, mollitia! Consectetur iste reiciendis laborum a vero nihil eveniet iusto, dolores repellat cupiditate dolore deleniti asperiores id sapiente maxime, dolorum consequuntur!</p>
+        </details>
+        <table>
+            <caption>Tabela de produtos</caption>
+            <thead>
+                <tr>
+                    <th colspan="3">Bom preço</th>                   
+                </tr>
+                <tr>
+                    <th>Produto</th>
+                    <th>Quantidade</th>
+                    <th>Valor</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Arroz</td>
+                    <td>23</td>
+                    <td>R$ 23,00</td>
+                </tr>
+                <tr>
+                    <td>Feijão</td>
+                    <td>20</td>
+                    <td>R$ 7,50</td>
+                </tr>
+                <tr>
+                    <td>Macarrão</td>
+                    <td>15</td>
+                    <td>R$ 4,50</td>
+                </tr>
+            </tbody>
+        </table><br>
+
+
+        <form action="script.php" method="post">
+            <h1>Cadatro de clientes</h1>
+            <label for="nome">Nome</label> <input type="text" id="nome" maxlength="20" placeholder="Digite seu nome"><br>
+            <label for="endereco">Endereço</label> <input type="text" id="endereco" maxlength="20"><br>
+            <label for="numero">Nº da casa</label> <input type="number" id="numero" placeholder="nº da casa"><br>
+            <label for="email">Email</label> <input type="email" id="email"><br>
+            <textarea name="opiao" id="opiniao" cols="30" rows="10"></textarea><br>
+            <input type="reset" value="corrigir"><input type="submit" value="Enviar"><br>
+        </form>
+    </main>
+    <footer></footer>
+    <script></script>
+</body>
+</html>
